@@ -38,7 +38,7 @@ class StarWarsImageApi extends React.Component {
     
     return(
       <header className="App-header">
-        {console.log(this.state.image)}
+        {/* {console.log(this.state.image)} */}
         {this.state.needImage === false &&
         <img className='avatar-image' src={this.state.image} alt="avatarImage.jpg" />
         }
